@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-image: url(img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 37px;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.icons {
+    display: flex;
+    gap: 58px;
+    cursor: pointer;
+}
+
+.row h1 {
+    width: 679px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    padding-bottom: 48px;
+}
+
+.row p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: white;
+    width: 645px;
+    padding-bottom: 40px;
+}
+.container-hero {
+    padding-left: 120px;
+    padding-top: 80px;
+}
+
+button {
+    width: Fixed (180px)px;
+    height: Hug (52px)px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.category-title {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 122px;
+}
+
+main {
+    background-color: #777777;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    width: 96%;
+}
+.row-1 h2 {
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+color: white;
+padding-left: 80px;
+}
+.velik-left {
+    width: 400px;
+    height: 458px;
+    background-color: #101010;
+    border-radius: 15px;
+    position: relative;
+}
+
+.velik-left h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.velik-left .velik-img img {
+    position: absolute;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.velik-card {
+    width: 400px;
+    height: 216px;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    background-color: #101010;
+    border-radius: 15px;
+    position: relative;
+}
+.velik-card h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+.velik-card .velik-card-img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.row-2 {
+    display: flex;
+    gap: 12px;
+}
+
+.velik-right {
+    width: 869px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category {
+    margin-left: 10px;
+    margin-bottom: 157px;
+}
+
+.row-1:hover {
+    background-color: #F57520;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: #F57520;
+}
+
+.track-title {
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    padding-left: 250px;
+}
+.card {
+    width: 400px;
+    height: 462px;
+    background-color: #101010;
+    margin-top: 170px;
+    border-radius: 10px;
+}
+.card h3 {
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+    padding-top: 24px;
+    padding-left: 27px;
+}
+
+.card p {
+    width: 400px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.track-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.hero-left h1 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    color: white;
+    width: 660px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 52px;
+}
+
+.hero {
+    background-color: #F57520;
+    display: flex;
+    position: relative;
+}
+
+form input {
+    width:270px;
+    height: Hug (46px)px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 16px;
+}
+form {
+    padding-left: 100px;
+    padding-top: 92px;
+    padding-bottom: 40px;
+}
+
+.sms-input {
+    width: 545px;
+    height: 154px;;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.form-btn {
+    width: 545px;
+    background-color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;
+    color: #F57520;
+}
+.hero-right img {
+    position: absolute;
+    width: 600px;
+    height: 566px;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-loc img {
+    width: 100%;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 102px;
+    padding-bottom: 80px;
+}
+.footer {
+    color: white;
+}
+.footer-row {
+    display: flex;
+    gap: 91px;
+}
